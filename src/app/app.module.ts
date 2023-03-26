@@ -10,6 +10,7 @@ import { PriceCardComponent } from './components/price-card/price-card.component
 import { ServicesComponent } from './containers/services/services.component';
 import { PricesComponent } from './containers/prices/prices.component';
 import { ContactComponent } from './containers/contact/contact.component';
+import { HomeComponent } from './containers/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './containers/contact/contact.component';
     PriceCardComponent,
     ServicesComponent,
     PricesComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
