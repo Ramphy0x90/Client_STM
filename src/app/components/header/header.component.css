@@ -1,0 +1,17 @@
+.navbar {
+  background-color: var(--main-color);
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: end;
+}
+
+.navbar .nav-link {
+  color: var(--main-light);
+}
+
+.navbar .active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--main-secondary);
+}
